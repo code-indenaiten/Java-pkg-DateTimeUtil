@@ -13,6 +13,7 @@
     <properties>
         <junit.version>5.8.0-M1</junit.version>
         <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <maven.surefire.plugin.version>2.22.2</maven.surefire.plugin.version>
         <project.java.version>8</project.java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -49,6 +50,13 @@
                     <source>${project.java.version}</source>
                     <target>${project.java.version}</target>
                 </configuration>
+            </plugin>
+
+            <!-- JUnit 5 requires Surefire version 2.22.0 or higher -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>${maven.surefire.plugin.version}</version>
             </plugin>
         </plugins>
     </build>
