@@ -6,9 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## UNRELEASED
 
+---
+
+## v1.0.0 `25/06/2021`  
+
 ### ADDED
-- The **`DateTimeUtil`** class has been created.
-- The **JUnit tests for `DateTimeUtil` class** has been created.
+- **#1** - Create DateTimeUtil class  
+    _The **`DateTimeUtil`** class has been created._
+  
+
+- **#2** - Create JUnit tests to DateTimeUtil class  
+    _The **JUnit tests for `DateTimeUtil` class** has been created._
 
 ### FIX
 - **#3** - JUnit 5 not run with maven  
