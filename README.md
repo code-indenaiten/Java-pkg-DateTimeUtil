@@ -9,7 +9,17 @@ The utility class handles **dates and times in** **String**, **LocalDateTime**, 
 ## Technologies 
 > **[Java](https://www.java.com/es/):** _1.8_  
 > **[Maven](https://maven.apache.org/):** _3.8.1_  
-> **[JUnit](https://junit.org/junit5/):** _5.8.0-M1_  
+> **[JUnit](https://junit.org/junit5/):** _5.8.0-M1_
+
+## Clarifications  
+The following plugin has been added to run **JUnit 5** tests.
+
+```xml
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-surefire-plugin</artifactId>
+    <version>2.22.2</version>
+</plugin>
 ```  
 
 [![Licencia Creative Commons](https://i.creativecommons.org/l/by-sa/4.0/88x31.png) ](http://creativecommons.org/licenses/by-sa/4.0)
