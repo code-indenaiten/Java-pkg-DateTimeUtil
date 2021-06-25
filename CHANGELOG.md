@@ -8,3 +8,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### ADDED
 - The **`DateTimeUtil`** class has been created.
+- The **JUnit tests for `DateTimeUtil` class** has been created.
